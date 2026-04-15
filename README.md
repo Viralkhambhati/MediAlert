@@ -4,18 +4,11 @@
   <img src="./MediAlertlogo.jpeg" alt="MediAlert logo" width="180" />
 </p>
 
-MediAlert is a cross-platform medicine reminder app built with React Native. It helps users create medication schedules, receive timely notifications, track intake history, and manage hydration reminders from a clean, easy-to-use dashboard.
+## Project Overview
 
-## Key Features
+MediAlert is a medicine reminder application for people who need help staying on schedule, including elderly users, patients on multiple prescriptions, and caregivers managing daily routines. It keeps medication timing, intake tracking, and hydration alerts in one simple mobile application.
 
-- Add and edit medicines with dosage form, start and end dates, reminder times, and notes
-- Receive local medicine notifications
-- Mark medicines as taken directly from the home screen
-- View medicine history with date and status filters
-- Search, update, and delete saved medicines
-- Enable water reminders with custom intervals
-- Switch between light and dark themes
-- Store app data locally with AsyncStorage
+The system is built to feel practical in day-to-day use: add a medicine once, get notified at the right time, mark it as taken, and review the history later without extra steps.
 
 ## Screenshots
 
@@ -56,6 +49,15 @@ MediAlert is a cross-platform medicine reminder app built with React Native. It 
   </tr>
 </table>
 
+## Features
+
+- Helps users set up medicine reminders with start date, end date, and multiple daily times
+- Shows what needs to be taken today, what is coming next, and what has already been completed
+- Lets users edit or remove a medicine whenever the prescription changes
+- Tracks taken and missed doses in a history view with date filters
+- Includes a water reminder option for users who need hydration nudges during the day
+- Supports light and dark themes for comfortable daily use
+
 ## Tech Stack
 
 - React Native 0.84
@@ -63,23 +65,24 @@ MediAlert is a cross-platform medicine reminder app built with React Native. It 
 - React Navigation
 - AsyncStorage
 - Notifee
-- React Native DateTimePicker
+- `@react-native-community/datetimepicker`
+- React Native Vector Icons
 
-## Getting Started
+## Setup
 
 ### Prerequisites
 
 - Node.js 22 or newer
 - Android Studio or Xcode
-- CocoaPods for iOS development
+- CocoaPods for iOS
 
-### Install Dependencies
+### Install
 
 ```sh
 npm install
 ```
 
-### Start Metro
+### Start the app
 
 ```sh
 npm start
@@ -91,7 +94,7 @@ npm start
 npm run android
 ```
 
-### Run on iOS
+### Run on iPhone / iOS simulator
 
 ```sh
 bundle install
@@ -99,12 +102,8 @@ bundle exec pod install
 npm run ios
 ```
 
-## Project Notes
+## Notes
 
-- Medicine schedules are stored locally on the device
-- Notifications are scheduled per medicine time and can be managed from the app
-- Water reminders can be enabled or disabled from the home screen
-
-## License
-
-This project is intended for personal and educational use.
+- All medicine data is stored locally on the device
+- Notification reminders are scheduled per medicine time
+- The home screen also includes a quick water reminder control
