@@ -4,6 +4,12 @@
   <img src="./MediAlertlogo.jpeg" alt="MediAlert logo" width="180" />
 </p>
 
+## Download App
+
+You can download the app directly from Google Drive:
+
+- [Download MediAlert App](https://drive.google.com/file/d/1GNZ0ivnubOtt2pQWctRwVZt-4Fr1ixXc/view)
+
 ## Project Overview
 
 MediAlert is a medicine reminder application for people who need help staying on schedule, including elderly users, patients on multiple prescriptions, and caregivers managing daily routines. It keeps medication timing, intake tracking, and hydration alerts in one simple mobile application.
